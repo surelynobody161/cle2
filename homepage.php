@@ -36,6 +36,7 @@
     <section class="firstSection">
         <div class="firstIcon">
             <p>WERKNEMERS</p>
+
         </div>
         <div class="secondIcon">
             <p>TON GRONDSTOF DAGELIJKS VERWERKT</p>
