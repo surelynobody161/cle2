@@ -17,11 +17,11 @@
             <img class="navImg" src="images/adatextiel-logo.png" alt="logo">
         </div>
         <div class="right">
-            <a href="#home">HOME</a>
-            <a href="">OVER ONS</a>
-            <a href="">PRODUCTEN</a>
-            <a href="">DUURZAAMHEID</a>
-            <a href="">CONTACT</a>
+            <a href="home">HOME</a>
+            <a href="overons">OVER ONS</a>
+            <a href="producten">PRODUCTEN</a>
+            <a href="duurzaamheid">DUURZAAMHEID</a>
+            <a href="reservering">RESERVERING</a>
         </div>
 
     </nav>
@@ -41,15 +41,15 @@
         </div>
         <div class="secondIcon">
             <p>TON GRONDSTOF DAGELIJKS VERWERKT</p>
-            <img src="images/icon2.png" alt="recycle">
+            <img src="images/icon2.png">
         </div>
         <div class="thirdIcon">
             <p>EINDPRODUCTEN</p>
-            <img src="images/icon3.png" alt="box">
+            <img src="images/icon3.png">
         </div>
         <div class="fourthIcon">
             <p>JAAR OP DE MARKT</p>
-            <img src="images/icon4.png" alt="earth">
+            <img src="images/icon4.png">
         </div>
 
     </section>
@@ -67,7 +67,8 @@
         <p>+31 10 226 85 47</p>
         <p>info@adatex.nl</p>
         <p>Heldringstraat 39</p>
-        <p></p>
+        <p>3144 CE – Maassluis</p>
+        <p>The Netherlands</p>
     </div>
 
     <div class="footerright">
