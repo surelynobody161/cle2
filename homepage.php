@@ -33,25 +33,36 @@
 </header>
 
 <main>
-    <section class="firstSection">
-        <div class="firstIcon">
+    <<section class="firstSection">
+        <div class="bovenop">
             <p>WERKNEMERS</p>
-            <img src="images/icon1.png" alt="people">
+            <div class="firstIcon">
 
+                <img src="images/icon1.png" alt="people">
+
+            </div>
         </div>
-        <div class="secondIcon">
+        <div class="bovenop">
             <p>TON GRONDSTOF DAGELIJKS VERWERKT</p>
-            <img src="images/recycle.png">
-        </div>
-        <div class="thirdIcon">
-            <p>EINDPRODUCTEN</p>
-            <img src="images/kubus.png">
-        </div>
-        <div class="fourthIcon">
-            <p>JAAR OP DE MARKT</p>
-            <img src="images/world.png">
-        </div>
+            <div class="secondIcon">
 
+                <img src="images/recycle.png">
+            </div>
+        </div>
+        <div class="bovenop">
+            <p>EINDPRODUCTEN</p>
+            <div class="thirdIcon">
+
+                <img src="images/kubus.png">
+            </div>
+        </div>
+        <div class="bovenop">
+            <p>JAAR OP DE MARKT</p>
+            <div class="fourthIcon">
+
+                <img src="images/world.png">
+            </div>
+        </div>
     </section>
 
     <h2>Welkom in de wereld van tweedehands textiel</h2>
