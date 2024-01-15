@@ -36,7 +36,7 @@
     <section class="firstSection">
         <div class="firstIcon">
             <p>WERKNEMERS</p>
-            <img src="images/icon1.png">
+            <img src="images/icon1.png" alt="people">
 
         </div>
         <div class="secondIcon">
