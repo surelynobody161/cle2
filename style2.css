@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.center-container {
+    padding: 40px;
+    padding-top: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #10153B;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+a:hover {
+    color: #E54560;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    gap: 60px
+}
+
+header {
+    background-image: url(./images/overonsheader.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+
+}
+
+h1,
+header,
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+p {
+    color: #616166;
+}
+
+.firstSection {
+    display: flex;
+    padding-top: 60px;
+}
+
+.firstSection img {
+    display: flex;
+}
