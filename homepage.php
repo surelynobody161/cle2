@@ -41,15 +41,15 @@
         </div>
         <div class="secondIcon">
             <p>TON GRONDSTOF DAGELIJKS VERWERKT</p>
-            <img src="images/icon2.png" alt="recycle">
+            <img src="images/icon2.png">
         </div>
         <div class="thirdIcon">
             <p>EINDPRODUCTEN</p>
-            <img src="images/icon3.png" alt="box">
+            <img src="images/icon3.png">
         </div>
         <div class="fourthIcon">
             <p>JAAR OP DE MARKT</p>
-            <img src="images/icon4.png" alt="earth">
+            <img src="images/icon4.png">
         </div>
 
     </section>
