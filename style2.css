@@ -70,8 +70,29 @@ p {
 .firstSection {
     display: flex;
     padding-top: 60px;
+    padding-left: 50px;
 }
 
 .firstSection img {
     display: flex;
+}
+
+.secondSection {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.secondSection img {
+   width: 50vw;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.about2 {
+    padding-right: 50px;
 }

@@ -32,7 +32,7 @@
 </header>
 
 <section class="firstSection">
-    <div class="about">
+    <div class="about1">
 
         <p> ADA Textiel Recycling is een familiebedrijf die is opgericht in 2003. De onderneming is gespecialiseerd in het sorteren en herwaarderen van gebruikte/afgedankte textiel. Dagelijks wordt er 20 ton aan grondstoffen verwerkt. Ons doel is om een eindproduct te leveren van superieure kwaliteit. </p>
 
@@ -49,6 +49,20 @@
 </section>
 
 <section class="secondSection">
+    <img src="images/overons-sorteerproces.jpeg">
+
+    <div class="about2">
+       <h2>ONS SORTEERPROCES </h2>
+        <p>ADA Textiel Recycling hanteert een vrij traditionele, handmatige sorteerproces. Ons gebouw bestaat uit twee compartimenten. Aan de ene kant bevindt zich de loods waar onze leveringen binnenkomen. </p>
+
+        <p> De leveringen worden in kooien geleegd, waarbij de restafval direct wordt gescheiden.</p>
+
+        <p> In ons sorteercentrum worden de geleverde producten eerst gesorteerd op categorie, door onze voorsorteer team. Vervolgens worden de gesorteerde items door een grotere deel van ons team fijn gesorteerd op detail.</p>
+
+        <p> In dit stadium wordt de textiel beoordeeld op bruikbaarheid en verschillende kwaliteitsniveaus. Op voorkeur van onze klanten, worden de producten in kleine, of in grote zakken verpakt, of worden deze samengeperst tot een baal.</p>
+
+         <p> Ons assortiment bestaat uit 250 eindproducten. </p>
+    </div>
 
 
 </section>
