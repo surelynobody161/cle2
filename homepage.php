@@ -41,15 +41,15 @@
         </div>
         <div class="secondIcon">
             <p>TON GRONDSTOF DAGELIJKS VERWERKT</p>
-            <img src="images/icon2.png">
+            <img src="images/recycle.png">
         </div>
         <div class="thirdIcon">
             <p>EINDPRODUCTEN</p>
-            <img src="images/icon3.png">
+            <img src="images/kubus.png">
         </div>
         <div class="fourthIcon">
             <p>JAAR OP DE MARKT</p>
-            <img src="images/icon4.png">
+            <img src="images/world.png">
         </div>
 
     </section>
@@ -59,7 +59,14 @@
 
 <footer>
 
-    <img class="footerimg" src="images/adalogotr.png" alt="logo">
+    <div class="bottom">
+        <div class="photo">
+            <img class="footerimg" src="images/adalogotr.png" alt="logo">
+        </div>
+        <img src="images/niwologo.png" width="120px" height="100px">
+        <img src="images/kiwalogo.png" width="110px" height="100px">
+
+    </div>
     <p class="footertext">Known for our continuous quality!</p>
 
 
@@ -71,10 +78,7 @@
         <p>The Netherlands</p>
     </div>
 
-    <div class="footerright">
-        <img src="images/niwologo.png">
-        <img src="images/kiwalogo.png">
-    </div>
+
 
 </footer>
 

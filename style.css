@@ -60,10 +60,10 @@ h1 {
 
 .firstSection {
     display: flex;
-    gap: 20px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
+
 
 h2 {
     text-align: center;
@@ -95,13 +95,52 @@ footer {
     margin-top: -180px;
 
 }
-
-.footerright {
+.bottom {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.photo {
+    padding-right: 1000px;
+    padding-left: 200px;
+}
+
 
 .location {
     display: flex;
     flex-direction: column;
 
+}
+
+.firstIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.secondIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourthIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 130px;
+}
+
+.firstSection img {
+
+    align-items: center;
 }
