@@ -1,0 +1,103 @@
+.center-container {
+    padding: 40px;
+    padding-top: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #10153B;
+    font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+    color: #E54560;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    gap: 50px;
+}
+
+h1,
+header,
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(../Image/homeimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.718);
+    padding: 20px;
+}
+
+
+.firstsection{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secsection{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thirdsection{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fourthsection{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center1-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+h2{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+    background-color: #10153B;
+    padding: 60px;
+    color:rgb(162, 162, 162)
+}
+
+.footerimg{
+    display: flex;
+}
