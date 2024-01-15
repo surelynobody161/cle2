@@ -39,7 +39,7 @@ body {
 }
 
 header {
-    background-image: url(../images/homeimage.jpeg);
+    background-image: url(./images/homeimage.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
