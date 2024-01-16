@@ -17,11 +17,11 @@
             <img class="navImg" src="images/adatextiel-logo.png" alt="logo">
         </div>
         <div class="right">
-            <a href="#home">HOME</a>
+            <a href="homepage.php">HOME</a>
             <a href="overonspage.php">OVER ONS</a>
-            <a href="">PRODUCTEN</a>
-            <a href="">DUURZAAMHEID</a>
-            <a href="">RESERVERING</a>
+            <a href="producten.php">PRODUCTEN</a>
+            <a href="duurzaamheid.php">DUURZAAMHEID</a>
+            <a href="reserveringspagina.php">RESERVERING</a>
         </div>
 
     </nav>

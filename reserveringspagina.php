@@ -17,11 +17,11 @@
         <img src="images/adatextiel-logo.png" alt="">
     </div>
     <div class="navigatie">
-        <a href="">home</a>
-        <a href="">over ons</a>
-        <a href="">producten</a>
-        <a href="">duurzaamheid</a>
-        <a href="">reserveringen</a>
+        <a href="homepage.php">HOME</a>
+        <a href="overonspage.php">OVER ONS</a>
+        <a href="producten.php">PRODUCTEN</a>
+        <a href="duurzaamheid.php">DUURZAAMHEID</a>
+        <a href="reserveringspagina.php">RESERVERING</a>
         <div class="search-container">
             <input type="search" name="" id="search" placeholder="search"">
             <span class=" icon is-small is-left"><i "></i></span>
