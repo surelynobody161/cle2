@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <h2>Welkom in de wereld van tweedehands textiel</h2>
+    <h2><strong>Welkom in de wereld van tweedehands textiel</strong></h2>
 </main>
 
 <footer>

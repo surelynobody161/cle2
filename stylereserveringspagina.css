@@ -126,6 +126,7 @@ textarea {
     margin-top: 10px;
     border: none;
     outline: none;
+    resize: none;
 }
 
 input {
@@ -150,8 +151,6 @@ input {
 }
 
 
-
-
 .footerinfo {
     color: grey;
     display: flex;
@@ -171,4 +170,8 @@ input {
 .photo {
     padding-right: 1000px;
     padding-left: 200px;
+}
+
+a:hover {
+    color: #E54560;
 }

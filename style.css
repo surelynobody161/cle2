@@ -71,6 +71,8 @@ h2 {
     text-align: center;
     font-weight: lighter;
     font-family: "Open Sans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -87,6 +89,7 @@ footer {
     color: grey;
     font-size: 20px;
     padding-top: 30px;
+    padding-left: 200px;
 }
 
 
@@ -121,8 +124,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 80px;
-    gap: 120px;
+    padding-top: 40px;
+    gap: 60px;
 }
 
 h2 {
@@ -223,6 +226,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.firstIcon img,
+.secondIcon img,
+.thirdIcon img,
+.fourthIcon img {
+    width: 210px;
+    height: 250px;
 }
 
 
