@@ -21,7 +21,7 @@
             <a href="overonspage.php">OVER ONS</a>
             <a href="">PRODUCTEN</a>
             <a href="">DUURZAAMHEID</a>
-            <a href="">CONTACT</a>
+            <a href="">RESERVERING</a>
         </div>
 
     </nav>
