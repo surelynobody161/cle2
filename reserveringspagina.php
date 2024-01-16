@@ -1,4 +1,64 @@
 <?php
+
+
+/** @var mysqli $db */
+require_once "includes/database.php";
+
+$user = [];
+$voornaam = "";
+$achternaam = "";
+$email = "";
+$telefoonummer = "";
+
+
+$errors = [];
+
+if (isset($_POST['submit'])) {
+
+    $voornaam = htmlentities($_POST['voornaam']);
+    $achternaam = htmlentities($_POST['achternaam']);
+    $email = htmlentities($_POST['email']);
+    $telefoonummer = htmlentities($_POST['telefoonummer']);
+    $reserveringsdetails = htmlentities($_POST['reserveringsdetails']);
+
+    // Validation
+    if ($voornaam == "") {
+        $errors['voornaam'] = "vul aub je voornaam in";
+    }
+    if ($achternaam == "") {
+        $errors['achternaam'] = "vul alsjeblieft je achternaam in";
+    }
+    if ($email == "") {
+        $errors['e-mail'] = "Vul aub je email in";
+    }
+    if ($telefoonummer == "") {
+        $errors['telefoonummer'] = "Vul aub je telefoonummer in";
+    }
+    if ($reserveringsdetails == "") {
+        $errors['reserveringsdetails'] = "Vul aub je reserveringsdetails in";
+    }
+
+    if (empty($errors)) {
+        $voornaam = mysqli_real_escape_string($db, $voornaam);
+        $achternaam = mysqli_real_escape_string($db, $achternaam);
+        $email = mysqli_real_escape_string($db, $email);
+        $telefoonummer = mysqli_real_escape_string($db, $telefoonummer);
+        $reserveringsdetails = mysqli_real_escape_string($db, $reserveringsdetails);
+
+        $query = "INSERT INTO reservations (voornaam, achternaam, email, telefoonummer, reserveringsdetails)
+                    VALUES('$voornaam', '$achternaam', '$email', '$telefoonummer', '$reserveringsdetails')";
+        $result = mysqli_query($db, $query);
+
+        if ($result) {
+            header('Location: homepage.php');
+        } else {
+            $errors['db'] = mysqli_error($db);
+        }
+    }
+}
+
+
+
 ?>
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
@@ -40,16 +100,16 @@
     </p>
 </section>
 
-<form action="verzend adres nog niet aangemaakt">
+<form action="" method="post">
     <div class="geheel">
         <div class="linkerkant">
             <div class="onderelkaar1">
-                <label for="first-name"><strong>Voornaam*</strong></label>
-                <input type="text" name="frst-name" required id="first-name" placeholder="Voornaam">
+                <label for="voornaam"><strong>Voornaam*</strong></label>
+                <input type="text" name="voornaam" required id="voornaam" placeholder="Voornaam">
             </div>
             <div class="onderelkaar2">
                 <label for="last-name"><strong>Achternaam*</strong></label>
-                <input type="text" name="last-name" id="last-name" placeholder="Achternaam">
+                <input type="text" name="achternaam" id="last-name" placeholder="Achternaam">
             </div>
 
             <div class="onderelkaar3">
@@ -64,11 +124,15 @@
         </div>
         <div class="rechterkant">
             <div class="onderelkaar5">
-                <label for="bericht"><strong>Bericht</strong></label>
-                <textarea name="bericht" id="bericht" required cols="30" rows="10"
+                <label for="bericht"><strong>Bericht*</strong></label>
+                <textarea name="reserveringsdetails" id="reserveringsdetails" required cols="30" rows="10"
                           style="width: 395px; height: 417px;"></textarea>
             </div>
         </div>
+    </div>
+    <div class="button1">
+        <button class="button is-link is-fullwidth" type="submit" name="submit">vraag om een
+            reservatie</button>
     </div>
 </form>
 <footer>
