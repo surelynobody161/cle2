@@ -58,15 +58,6 @@ h1 {
 
 }
 
-.firstSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 80px;
-    gap: 120px;
-}
-
-
 h2 {
     text-align: center;
     font-weight: lighter;
@@ -108,11 +99,6 @@ footer {
     align-items: center;
 }
 
-.photo {
-    padding-right: 1000px;
-    padding-left: 200px;
-}
-
 
 .location {
     display: flex;
@@ -128,43 +114,19 @@ footer {
     gap: 60px;
 }
 
-h2 {
-    text-align: center;
-    font-weight: lighter;
-    font-family: "Open Sans", sans-serif;
-}
 
 footer {
     background-color: #10153B;
     padding: 60px;
 }
 
-.footerimg {
-    display: flex;
-}
+
 
 .footertext {
     color: grey;
     font-size: 20px;
     padding-top: 30px;
     gap: 60px
-}
-
-
-.footerinfo {
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -180px;
-
-}
-
-.bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .photo {
@@ -182,7 +144,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     border: 3px solid gray;
     border-radius: 20px;
     padding: 20px;

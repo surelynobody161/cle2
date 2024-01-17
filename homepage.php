@@ -33,7 +33,7 @@
 </header>
 
 <main>
-    <<section class="firstSection">
+    <section class="firstSection">
         <div class="bovenop">
             <p>WERKNEMERS</p>
             <div class="firstIcon">
@@ -66,6 +66,7 @@
     </section>
 
     <h2><strong>Welkom in de wereld van tweedehands textiel</strong></h2>
+
 </main>
 
 <footer>
