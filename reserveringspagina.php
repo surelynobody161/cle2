@@ -125,7 +125,7 @@ if (isset($_POST['submit'])) {
         <div class="rechterkant">
             <div class="onderelkaar5">
                 <label for="bericht"><strong>Bericht*</strong></label>
-                <textarea name="reserveringsdetails" id="reserveringsdetails" required cols="30" rows="10"
+                <textarea name="reserveringsdetails" id="reserveringsdetails" placeholder="vul een datum en tijd in dan zullen wij zo snel mogelijk terug reageren."required cols="30" rows="10"
                           style="width: 395px; height: 417px;"></textarea>
             </div>
         </div>
