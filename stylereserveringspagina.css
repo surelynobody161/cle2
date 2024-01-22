@@ -22,6 +22,7 @@ nav {
 
 .imgnav {
     margin-left: 50px;
+    
 }
 
 a {
@@ -83,8 +84,17 @@ a {
     padding-top: 10px;
     padding: 10px;
     background-color: white;
-    margin-right: 280px;
     border-radius: 15px;
+    margin-right: 600px;
+
+}
+select{
+    margin-bottom: 30px;
+    background-color: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid white
 }
 
 
@@ -120,7 +130,12 @@ a {
     display: flex;
     flex-direction: column;
 
+
 }
+.select{
+        width: 200px;
+}
+
 
 textarea {
     margin-top: 10px;
