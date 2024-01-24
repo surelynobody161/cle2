@@ -67,5 +67,31 @@
 
 </section>
 
+<footer>
+
+    <div class="bottom">
+        <div class="photo">
+            <img class="footerimg" src="images/adalogotr.png" alt="logo">
+        </div>
+        <img src="images/niwologo.png" width="120px" height="100px">
+        <img src="images/kiwalogo.png" width="110px" height="100px">
+
+    </div>
+    <p class="footertext">Known for our continuous quality!</p>
+
+
+    <div class="footerinfo">
+        <p>+31 10 226 85 47</p>
+        <p>info@adatex.nl</p>
+        <p>Heldringstraat 39</p>
+        <p>3144 CE – Maassluis</p>
+        <p>The Netherlands</p>
+    </div>
+
+
+
+</footer>
+
+
 </body>
 </html>

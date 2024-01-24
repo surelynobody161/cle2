@@ -96,3 +96,28 @@ h2 {
 .about2 {
     padding-right: 50px;
 }
+
+footer {
+    background-color: #10153B;
+    padding: 60px;
+}
+
+.footerimg {
+    display: flex;
+}
+
+.footertext {
+    color: grey;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+
+.footerinfo {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -180px;
+}
