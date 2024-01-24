@@ -1,5 +1,7 @@
 <?php
-
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 
 /** @var mysqli $db */
 require_once "includes/database.php";
@@ -76,7 +78,7 @@ if (isset($_POST['submit'])) {
         $result = mysqli_query($db, $query);
 
         if ($result) {
-            header('Location: homepage.php');
+            header('Location: index.php');
         } else {
             $errors['db'] = mysqli_error($db);
         }
@@ -101,7 +103,7 @@ if (isset($_POST['submit'])) {
         <img src="images/adatextiel-logo.png" alt="">
     </div>
     <div class="navigatie">
-        <a href="homepage.php">HOME</a>
+        <a href="index.php">HOME</a>
         <a href="overonspage.php">OVER ONS</a>
         <a href="producten.php">PRODUCTEN</a>
         <a href="duurzaamheid.php">DUURZAAMHEID</a>

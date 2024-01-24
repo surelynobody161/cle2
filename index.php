@@ -17,7 +17,7 @@
             <img class="navImg" src="images/adatextiel-logo.png" alt="logo">
         </div>
         <div class="right">
-            <a href="homepage.php">HOME</a>
+            <a href="index.php">HOME</a>
             <a href="overonspage.php">OVER ONS</a>
             <a href="producten.php">PRODUCTEN</a>
             <a href="duurzaamheid.php">DUURZAAMHEID</a>
