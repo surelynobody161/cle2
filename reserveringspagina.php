@@ -9,6 +9,11 @@ $voornaam = "";
 $achternaam = "";
 $email = "";
 $telefoonummer = "";
+$bericht1 = "";
+$bericht2 = "";
+$bericht3 = "";
+$bericht4 = "";
+$bericht5 = "";
 
 
 $errors = [];
@@ -19,7 +24,12 @@ if (isset($_POST['submit'])) {
     $achternaam = htmlentities($_POST['achternaam']);
     $email = htmlentities($_POST['email']);
     $telefoonummer = htmlentities($_POST['telefoonummer']);
-    $reserveringsdetails = htmlentities($_POST['reserveringsdetails']);
+    $bericht1 = htmlentities($_POST['bericht1']);
+    $bericht2 = htmlentities($_POST['bericht2']);
+    $bericht3 = htmlentities($_POST['bericht3']);
+    $bericht4 = htmlentities($_POST['bericht4']);
+    $bericht5 = htmlentities($_POST['bericht5']);
+
 
     // Validation
     if ($voornaam == "") {
@@ -34,8 +44,20 @@ if (isset($_POST['submit'])) {
     if ($telefoonummer == "") {
         $errors['telefoonummer'] = "Vul aub je telefoonummer in";
     }
-    if ($reserveringsdetails == "") {
-        $errors['reserveringsdetails'] = "Vul aub je reserveringsdetails in";
+    if ($bericht1 == "") {
+        $errors['bericht1'] = "Vul aub je reserveringsdetails in";
+    }
+    if ($bericht2 == "") {
+        $errors['bericht2'] = "Vul aub je reserveringsdetails in";
+    }
+    if ($bericht3 == "") {
+        $errors['bericht3'] = "Vul aub je reserveringsdetails in";
+    }
+    if ($bericht4 == "") {
+        $errors['bericht4'] = "Vul aub je reserveringsdetails in";
+    }
+    if ($bericht5 == "") {
+        $errors['bericht5'] = "Vul aub je reserveringsdetails in";
     }
 
     if (empty($errors)) {
@@ -43,10 +65,14 @@ if (isset($_POST['submit'])) {
         $achternaam = mysqli_real_escape_string($db, $achternaam);
         $email = mysqli_real_escape_string($db, $email);
         $telefoonummer = mysqli_real_escape_string($db, $telefoonummer);
-        $reserveringsdetails = mysqli_real_escape_string($db, $reserveringsdetails);
+        $bericht1 = mysqli_real_escape_string($db, $bericht1);
+        $bericht2 = mysqli_real_escape_string($db, $bericht2);
+        $bericht3 = mysqli_real_escape_string($db, $bericht3);
+        $bericht4 = mysqli_real_escape_string($db, $bericht4);
+        $bericht5 = mysqli_real_escape_string($db, $bericht5);
 
-        $query = "INSERT INTO reservations (voornaam, achternaam, email, telefoonummer, reserveringsdetails)
-                    VALUES('$voornaam', '$achternaam', '$email', '$telefoonummer', '$reserveringsdetails')";
+        $query = "INSERT INTO reservations (voornaam, achternaam, email, telefoonummer, bericht1, bericht2, bericht3, bericht4, bericht5)
+    VALUES ('$voornaam', '$achternaam', '$email', '$telefoonummer', '$bericht1', '$bericht2', '$bericht3', '$bericht4', '$bericht5')";
         $result = mysqli_query($db, $query);
 
         if ($result) {
@@ -56,8 +82,6 @@ if (isset($_POST['submit'])) {
         }
     }
 }
-
-
 
 ?>
 <!doctype html>
@@ -123,12 +147,49 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div class="rechterkant">
+
             <div class="onderelkaar5">
-                <label for="bericht"><strong>Bericht*</strong></label>
-                <textarea name="reserveringsdetails" id="reserveringsdetails" placeholder="vul een datum en tijd in dan zullen wij zo snel mogelijk terug reageren."required cols="30" rows="10"
-                          style="width: 395px; height: 417px;"></textarea>
+                <label for="bericht1"><strong>kies je producten</strong></label>
+                <select name="bericht1" id="bericht1">
+                    <option value="">-- Selecteer een product --</option>
+                    <option value="spijkerbroeken 1kg">spijkerbroeken 1kg</option>
+                    <option value="spijkerbroeken 10kg">spijkerbroeken 10kg</option>
+                    <option value="spijkerbroeken 50kg">spijkerbroeken 50kg</option>
+                </select>
+
+                <label for="bericht2"><strong>kies je producten</strong></label>
+                <select name="bericht2" id="bericht2">
+                    <option value="">-- Selecteer een product --</option>
+                    <option value="niveau a en b kleren 1kg">niveau a & b kleren 1kg</option>
+                    <option value="niveau a en b kleren 10kg">niveau a & b kleren 10kg</option>
+                    <option value="niveau a en b kleren 50kg">niveau a & b kleren 50kg</option>
+                </select>
+                <label for="bericht3"><strong>kies je producten</strong></label>
+                <select name="bericht3" id="bericht3">
+                    <option value="">-- Selecteer een product --</option>
+                    <option value="schoenen 1kg">schoenen 1kg</option>
+                    <option value="schoenen 10kg">schoenen 10kg</option>
+                    <option value="schoenen 50kg">schoenen 50kg</option>
+                </select>
+                <label for="bericht4"><strong>kies je producten</strong></label>
+                <select name="bericht4" id="bericht4">
+                    <option value="">-- Selecteer een product --</option>
+                    <option value=" vintage kleren 1kg">vintage kleren 1kg</option>
+                    <option value="vintage kleren 10kg">vintage kleren 10kg</option>
+                    <option value="vintage kleren 50kg">vintage   kleren 50kg</option>
+                </select>
+                <label for="bericht5"><strong>kies je producten</strong></label>
+                <select name="bericht5" id="bericht5">
+                    <option value="">-- Selecteer een product --</option>
+                    <option value=" vintage kleren 1kg" >recycled kleren 1kg</option>
+                    <option value="vintage kleren 10kg">recycled kleren 10kg</option>
+                    <option value="vintage kleren 50kg">recycled kleren 50kg</option>
+                </select>
+
             </div>
         </div>
+    </div>
+
     </div>
     <div class="button1">
         <button class="button is-link is-fullwidth" type="submit" name="submit">vraag om een
